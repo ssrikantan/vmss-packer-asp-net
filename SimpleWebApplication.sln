@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "simple2tierweb", "simple2tierweb\simple2tierweb.csproj", "{787114ED-635D-4257-AF7C-B2C1A8C374ED}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Deploy", "Deploy", "{6E5C3DB5-C8C5-49CE-963E-6DD3ED9AF162}"
+	ProjectSection(SolutionItems) = preProject
+		Deploy\DeployAspApp1.ps1 = Deploy\DeployAspApp1.ps1
+		Deploy\vmsscreateorupdate.ps1 = Deploy\vmsscreateorupdate.ps1
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{787114ED-635D-4257-AF7C-B2C1A8C374ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{787114ED-635D-4257-AF7C-B2C1A8C374ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{787114ED-635D-4257-AF7C-B2C1A8C374ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{787114ED-635D-4257-AF7C-B2C1A8C374ED}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
